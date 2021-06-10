@@ -7,8 +7,52 @@
     box-sizing: border-box;
 }
 
+/* Main body styling */
 section {
     padding: 60px;
+}
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border {
+    border-color: #fce138;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* style to header */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
 
 /* Hero Styling */
@@ -63,39 +107,13 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* style to header */
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-}
-header a {
-    text-decoration: none;
-    color: #fce138;
-}
-header nav {
-    float: right;
-    margin: 7px 0;
-}
-header nav ul li {
-    display: inline;
-}
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-}
-
 /* What we do styling */
 .intro {
     text-align: center;
 }
+
+/* This is now done in the section portion of this page */
+/*
 .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -105,6 +123,7 @@ header nav ul li a {
     border-color: #fce138;
     display: inline-block;
 }
+*/
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -112,6 +131,41 @@ header nav ul li a {
     font-size: 20px;
     margin: 0 auto;
 }
+
+/* What you do styling */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+.steps div {
+    margin-bottom: 80px;
+}
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+.steps span {
+    font-size: 38px;
+}
+/* This is now done in the section portion of this page */
+/*.steps h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+}
+*/
 
 /* footer styling */
 footer {
