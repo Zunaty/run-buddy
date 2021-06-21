@@ -12,3 +12,5 @@ https://zunaty.github.io/run-buddy/
 
 ## Contribution
 Made by Victor L Perez
+
+### (c)2019 Run Buddy, Inc
